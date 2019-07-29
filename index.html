@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/jpg" href="https://www.arsn.fr/wp-content/uploads/2017/11/Logo-ARSN_quadri.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Sooraj's Personal Site</title>
+    <style media="screen">
+    td#t01{
+        border: 0px solid black;
+      padding: 20px;
+        text-align: left;
+      }
+      table#t00{
+        background-color: AliceBlue;
+        padding:10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <img src="Sooraj.jpg" alt="Sooraj's Profile Picture" style="width:210px;height:250px;border:10px">
+    <h1>Sooraj Shukla</h1>
+    <p><em>Student at <strong>BIET,Jhansi</strong></em></p>
+    <p>I like to code , competetive programming . I like to play Batminton, Cricket.</p>
+    <hr>
+    <!--Content written side/adjacent to the image-->
+    <!--This is achieved by putting image and contant in the single row inside table tag as follows...-->
+    <h6 style="font-size:120%">Image adjacent to content...(Using table)</h6>
+    <table cellspacing="20">
+      <tr>
+        <td><img src="Sooraj.jpg" alt="Sooraj's Profile Picture" style="width:210px;height:250px;border:10px"></td>
+        <td>  <h1>Sooraj Shukla</h1>
+          <p><em>Student at <strong>BIET,Jhansi</strong></em></p>
+          <p>I like to code , competetive programming . I like to play Batminton, Cricket.</p></td>
+      </tr>
+    </table>
+    <hr>
+    <h3>Education(USING LIST)</h3>
+    <ul>
+    <li><strong>High School:</strong>Pioneer Montessori High School,SatyaPremi Nagar,Barabanki</li>
+    <li><strong>Intermediate:</strong>Pioneer Montessori Inter College,Lakhperabagh,Barbanki</li>
+    <li><strong>Graduation:</strong>Bundelkhand Institute Of Engineering and Technology,Jhansi</li>
+    </ul>
+    <hr >
+    <h3>Education(USING TABLE)</h3>
+    <div style="background-color:AliceBlue;">
+    <table id="t00">
+      <tr id="t01">
+        <td id="t01">2014-2015</td>
+        <td id="t01">High School</td>
+        <td id="t01">Pioneer Montessori High School,SatyaPremi Nagar,Barabanki</td>
+      </tr>
+      <tr id="t01">
+        <td id="t01">2015-2017</td>
+        <td id="t01">Intermediate</td>
+        <td id="t01">Pioneer Montessori Inter College,Lakhperabagh,Barabanki</td>
+      </tr>
+      <tr id="t01">
+        <td id="t01">2018-2022</td>
+        <td id="t01">Engineering</td>
+        <td id="t01">Bundelkhand Institue of Technology,Jhansi</td>
+      </tr>
+    </table>
+  </div>
+    <hr>
+    <h3>My Hobbies</h3>
+    <ol>
+      <li>I like to <a href="https://www.hackerrank.com/soorajshukla974?h_r=internal-search&hr_r=1" target="_blank" title="Sooraj's Hackerrank Profile"> code</a>.</li>
+      <!--target=="_blank" let the link ton be loaded in the new tab/window-->
+      <li>I like to play<a href="https://en.wikipedia.org/wiki/Badminton" target="_blank"> batminton</a> and <a href="https://en.wikipedia.org/wiki/Cricket" target="_blank">Cricket</a> etc.</li>
+      <li>I like Web developement.</li>
+      <li>I like to make my <a href="file:///C:/Users/Sooraj%20Shukla/Downloads/Notepad++/new1.html" target="_blank">own websites.</a></li>
+    </ol>
+    <hr>
+    <h3>Skills</h3>
+    <table cellspacing="20">
+    <tr>
+      <td>
+      <table cellspacing="20">
+        <tr>
+          <td>C language</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>⭐⭐</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table cellspacing="20">
+        <tr>
+          <td>HTML</td>
+          <td >⭐⭐</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>⭐</td>
+        </tr>
+        <tr>
+          <td>MySQL</td>
+          <td>⭐</td>
+        </tr>
+      </table>
+    </td>
+    </tr>
+    </table>
+    <a href="contact.html" target="_blank">Contact Me</a><br><br><!--If the html file is in same folder
+      then we need to give ony file name to href otherwise the whole path-->
+    <a download href="https://www.austincc.edu/hr/profdev/eworkshops/docs/HTML_Basics.pdf"> download html basics pdf file</a>
+    <!-- If we are goiving the link to download any file directly without being opening it then we need to use "download href" in place of "href"-->
+
+  </body>
+</html>
